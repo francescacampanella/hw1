@@ -1,0 +1,93 @@
+body{
+    font-family: Open Sans,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photo-1588421357574-87938a86fa28.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(169, 209, 244);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #0d116b;
+  }
+  
+  label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+    
+  h1{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+    color: #0d116b;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .campoform{
+    width: 300px;
+  }
+  
+  input{
+    padding-left: 5px;
+    font-size: 22px;
+    outline-color: #0d116b;
+    height: 50px;
+  }
+  
+  .signup{
+    background-color:#0d116b;
+    color: white;
+    width: 340px;
+    font-size: 25px;
+  }
+  
+  .signup:hover{
+    background-color: black;
+  }
+  
+  #profile{
+    width: 100px;
+  }
+  
+  .icon{
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+   
+  }
+  
+  .errorj{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .errorj span {
+    color:#0d116b;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .errorj img{
+    margin-bottom: -5px;  
+    margin-left: 8px;
+    width: 25px;
+  }
+
+  #reg{
+    color:#0d116b;
+  }
